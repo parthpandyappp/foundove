@@ -8,3 +8,8 @@
 
 # Thumbnails
 ._*
+
+## OS X
+.DS_Store
+.Spotlight-V100
+.Trashes
