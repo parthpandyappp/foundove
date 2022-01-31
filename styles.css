@@ -28,6 +28,7 @@
   margin-top: 3rem;
   padding: 1rem;
 }
+
 /* body styles */
 body {
   height: 100vh;
@@ -40,6 +41,7 @@ body {
 .pg-section {
   margin-top: 5rem;
 }
+
 /* navigation */
 nav {
   display: flex;
