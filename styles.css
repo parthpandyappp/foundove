@@ -1,16 +1,35 @@
 /* Importing font from Goofle Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+/* importing alerts.css into main stylesheet file */
+@import "./alerts/alerts.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
   --extreme-black: #1e293b;
   --slate-white: #f1f5f9;
+  --sky-blue: #e0f2fe;
+  --neutral-gray: #e5e5e5;
+  --nominal-green: #bbf7d0;
+  --dawn-yellow: #fef08a;
 }
 
 /* header start */
 .head-start {
   text-decoration: underline;
+}
+
+/* nav heading */
+.nav-head {
+  color: var(--slate-white);
+  text-decoration: none;
+}
+
+/* content-description styles */
+.content-desc {
+  margin-top: 3rem;
+  padding: 1rem;
 }
 /* body styles */
 body {
@@ -27,7 +46,10 @@ body {
 /* navigation */
 nav {
   display: flex;
-  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  background-color: var(--extreme-black);
+  color: var(--slate-white);
+  border-radius: 0.5rem;
 }
 
 /* Main container of the landing  page*/
@@ -35,6 +57,14 @@ nav {
   margin: 1rem;
   padding: 1rem;
   /* width: 60%; */
+}
+
+/* horizontal and vertical center */
+.center-hv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 /* inline-lists */
