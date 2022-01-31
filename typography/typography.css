@@ -1,0 +1,62 @@
+/* Section container for typography items */
+.disp-typo {
+  display: flex;
+  padding: 0 20rem;
+  flex-direction: column;
+  text-align: left;
+  margin: 1rem;
+}
+
+.sub-title {
+  font-size: 1.2rem;
+}
+
+.h-1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.h-2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.h-3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.h-4 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.h-5 {
+  font-size: 8px;
+  line-height: 16px;
+}
+
+.lg {
+  font-weight: 200;
+}
+
+.rg {
+  font-weight: 400;
+}
+
+.sm-bold {
+  font-weight: 600;
+}
+.bold {
+  font-weight: 700;
+}
+.black {
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .disp-typo {
+    padding: 0;
+    margin: 0.5rem;
+  }
+}
