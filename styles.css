@@ -4,6 +4,9 @@
 /* importing typography.css into main stylesheet file */
 @import "./badges/badges.css";
 
+/* importing alerts.css into main stylesheet file */
+@import "./alerts/alerts.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
