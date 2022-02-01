@@ -1,0 +1,25 @@
+.alert {
+  display: block;
+  text-align: center;
+  width: 15rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-weight: lighter;
+  margin: 1rem;
+}
+
+.alert-primary {
+  background-color: var(--sky-blue);
+}
+
+.alert-secondary {
+  background-color: var(--neutral-gray);
+}
+
+.alert-success {
+  background-color: var(--nominal-green);
+}
+
+.alert-warning {
+  background-color: var(--dawn-yellow);
+}
