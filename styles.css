@@ -2,7 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
 /* importing alerts.css into main stylesheet file */
+@import "./alerts/alerts.css";
+
+/* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
+
 
 /* Applying fonts to the root */
 * {
