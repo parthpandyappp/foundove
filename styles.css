@@ -8,6 +8,9 @@
 /* importing alerts.css into main stylesheet file */
 @import "./alerts/alerts.css";
 
+/* importing button.css into main stylesheet file */
+@import "./buttons/buttons.css";
+
 
 /* Applying fonts to the root */
 * {
@@ -15,6 +18,13 @@
   --extreme-black: #1e293b;
   --slate-white: #f1f5f9;
   --sky-blue: #e0f2fe;
+  --naval-sky: #3b82f6;
+  --neutral-gray: #e5e5e5;
+  --naval-gray: #64748b;
+  --nominal-green: #bbf7d0;
+  --naval-green: #10b981;
+  --dawn-yellow: #fef08a;
+  --naval-yellow: #f59e0b;
   --neutral-gray: #e5e5e5;
   --nominal-green: #bbf7d0;
   --dawn-yellow: #fef08a;
