@@ -27,10 +27,15 @@
   padding: 1rem;
 }
 
-.menu-opt {
+.menu-opt-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+
+.menu-opt {
+  font-size: large;
+  font-weight: bolder;
 }
 
 .img-overlay {
@@ -44,4 +49,28 @@
   padding: 0.5rem;
   line-height: 10px;
   font-style: italic;
+}
+
+li {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .card-body {
+    padding: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  .menu-opt {
+    font-size: small;
+    font-weight: 900;
+  }
+
+  .menu-img {
+    width: 1rem;
+    height: 1rem;
+  }
 }
