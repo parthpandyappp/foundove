@@ -5,9 +5,10 @@
   margin: 1rem;
 }
 
+/* 100px = 6.25rem */
 .disp-badge-item {
   position: relative;
-  width: 100px;
+  width: 6.25rem;
 }
 
 .badge-text {
@@ -20,10 +21,11 @@
   font-size: 1.2rem;
 }
 
+/* 100px = 6.25rem */
 .avatar {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  width: 6.25rem;
 }
 
 .badge-online {
@@ -36,6 +38,6 @@
   border-radius: 50%;
   border: 1px solid white;
   background-color: green;
-  height: 20px;
-  width: 20px;
+  height: 1.25rem;
+  width: 1.25rem;
 }
