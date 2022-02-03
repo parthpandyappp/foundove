@@ -1,0 +1,53 @@
+.disp-btn {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  border: 0.5px solid black;
+  border-radius: 0.2rem;
+  color: white;
+}
+
+.btn-primary {
+  background-color: var(--naval-sky);
+}
+
+.btn-secondary {
+  background-color: var(--naval-gray);
+}
+
+.btn-success {
+  background-color: var(--naval-green);
+}
+
+.btn-warning {
+  background-color: var(--naval-yellow);
+}
+
+.btn-outline-primary {
+  color: var(--naval-sky);
+  border: 1px solid var(--naval-sky);
+  background: none;
+}
+
+.btn-outline-secondary {
+  color: var(--naval-gray);
+  border: 1px solid var(--naval-gray);
+  background: none;
+}
+
+.btn-outline-success {
+  color: var(--naval-green);
+  border: 1px solid var(--naval-green);
+  background: none;
+}
+
+.btn-outline-warning {
+  color: var(--naval-yellow);
+  border: 1px solid var(--naval-yellow);
+  background: none;
+}
