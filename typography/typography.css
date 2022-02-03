@@ -11,29 +11,34 @@
   font-size: 1.2rem;
 }
 
+/* Changed 48px & 64px into rems */
 .h-1 {
-  font-size: 48px;
-  line-height: 64px;
+  font-size: 3rem;
+  line-height: 4rem;
 }
 
+/* Changed 32px & 40px into rems */
 .h-2 {
-  font-size: 32px;
-  line-height: 40px;
+  font-size: 2rem;
+  line-height: 2.5rem;
 }
 
+/* Changed 24px & 32px into rems */
 .h-3 {
-  font-size: 24px;
-  line-height: 32px;
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
+/* Changed 16px & 24px into rems */
 .h-4 {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
+/* Changed 8px & 16px into rems */
 .h-5 {
-  font-size: 8px;
-  line-height: 16px;
+  font-size: 0.5rem;
+  line-height: 1rem;
 }
 
 .lg {
