@@ -1,8 +1,15 @@
-/* Importing font from Goofle Fonts */
+/* Importing font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
+
 
 /* importing cards.css into main stylesheet file */
 @import "./cards/cards.css";
+
+/* importing chips.css into main stylesheet file */
+@import "./chips/chips.css";
+
+/* importing avatars.css into main stylesheet file */
+@import "./avatars/avatars.css";
 
 /* importing alerts.css into main stylesheet file */
 @import "./alerts/alerts.css";
@@ -10,20 +17,20 @@
 /* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
 
-
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
   --extreme-black: #1e293b;
   --slate-white: #f1f5f9;
   --sky-blue: #e0f2fe;
-  --naval-sky: #3b82f6;
   --neutral-gray: #e5e5e5;
-  --naval-gray: #64748b;
   --nominal-green: #bbf7d0;
-  --naval-green: #10b981;
   --dawn-yellow: #fef08a;
+  --naval-sky: #3b82f6;
+  --naval-gray: #64748b;
+  --naval-green: #10b981;
   --naval-yellow: #f59e0b;
+  --rose-red: #ef4444;
 }
 
 /* header start */
