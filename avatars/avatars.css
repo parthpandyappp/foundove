@@ -7,11 +7,6 @@
   margin: 5rem;
 }
 
-.avatar {
-  height: 5rem;
-  width: 5rem;
-}
-
 .round {
   border-radius: 50%;
 }
@@ -43,4 +38,16 @@
 .avatar-sm {
   height: 6rem;
   width: 6rem;
+}
+
+@media screen and (max-width: 750px) {
+  .avatar-xl {
+    height: 5rem;
+    width: 5rem;
+  }
+
+  .avatar-md {
+    height: 4rem;
+    width: 4rem;
+  }
 }
