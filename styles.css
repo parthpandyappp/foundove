@@ -1,6 +1,10 @@
 /* Importing font from Goofle Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+
+/* importing avatars.css into main stylesheet file */
+@import "./avatars/avatars.css";
+
 /* importing alerts.css into main stylesheet file */
 @import "./alerts/alerts.css";
 
@@ -21,9 +25,6 @@
   --naval-green: #10b981;
   --dawn-yellow: #fef08a;
   --naval-yellow: #f59e0b;
-  --neutral-gray: #e5e5e5;
-  --nominal-green: #bbf7d0;
-  --dawn-yellow: #fef08a;
 }
 
 /* header start */
