@@ -1,6 +1,9 @@
 /* Importing font from Goofle Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+/* importing toasts.css into main stylesheet file */
+@import "./toasts/toasts.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
@@ -10,6 +13,7 @@
   --neutral-gray: #e5e5e5;
   --nominal-green: #bbf7d0;
   --dawn-yellow: #fef08a;
+  --sky-blue: #e0f2fe;
 }
 
 /* header start */
