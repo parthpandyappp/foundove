@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
 
-
 /* importing typography.css into main stylesheet file */
 @import "./typography/typography.css";
+
+/* importing cards.css into main stylesheet file */
+@import "./cards/cards.css";
 
 /* importing chips.css into main stylesheet file */
 @import "./chips/chips.css";
