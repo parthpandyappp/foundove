@@ -4,6 +4,12 @@
 /* importing chips.css into main stylesheet file */
 @import "./chips/chips.css";
 
+/* importing alerts.css into main stylesheet file */
+@import "./alerts/alerts.css";
+
+/* importing button.css into main stylesheet file */
+@import "./buttons/buttons.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
@@ -13,6 +19,10 @@
   --neutral-gray: #e5e5e5;
   --nominal-green: #bbf7d0;
   --dawn-yellow: #fef08a;
+  --naval-sky: #3b82f6;
+  --naval-gray: #64748b;
+  --naval-green: #10b981;
+  --naval-yellow: #f59e0b;
   --rose-red: #ef4444;
 }
 
