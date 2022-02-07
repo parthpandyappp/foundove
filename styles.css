@@ -1,6 +1,8 @@
 /* Importing font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+/* importing typography.css into main stylesheet file */
+@import "./badges/badges.css";
 
 /* importing typography.css into main stylesheet file */
 @import "./typography/typography.css";
@@ -29,6 +31,7 @@
   --neutral-gray: #e5e5e5;
   --nominal-green: #bbf7d0;
   --dawn-yellow: #fef08a;
+  --dark-cyan: #0891b2;
   --naval-sky: #3b82f6;
   --naval-gray: #64748b;
   --naval-green: #10b981;
