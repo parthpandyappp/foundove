@@ -1,0 +1,32 @@
+.disp-img {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+}
+
+.img-responsive {
+  max-width: 100%;
+  margin: auto;
+}
+
+.rounded {
+  border-radius: 1rem;
+}
+
+.img-circular {
+  border-radius: 50%;
+  height: 16rem;
+  width: 16rem;
+}
+
+@media screen and (max-width: 750px) {
+  .disp-img {
+    padding: 1.5rem;
+  }
+  .img-responsive {
+    width: 250px;
+  }
+}
