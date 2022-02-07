@@ -11,6 +11,11 @@
   font-size: 1.2rem;
 }
 
+.low-case {
+  font-size: 0.4rem;
+  margin-left: 0.5rem;
+}
+
 /* Changed 48px & 64px into rems */
 .h-1 {
   font-size: 3rem;
@@ -20,25 +25,25 @@
 /* Changed 32px & 40px into rems */
 .h-2 {
   font-size: 2rem;
-  line-height: 2.5rem;
+  /* line-height: 2.5rem; */
 }
 
 /* Changed 24px & 32px into rems */
 .h-3 {
   font-size: 1.5rem;
-  line-height: 2rem;
+  /* line-height: 2rem; */
 }
 
 /* Changed 16px & 24px into rems */
 .h-4 {
   font-size: 1rem;
-  line-height: 1.5rem;
+  /* line-height: 1.5rem; */
 }
 
 /* Changed 8px & 16px into rems */
 .h-5 {
   font-size: 0.5rem;
-  line-height: 1rem;
+  /* line-height: 1rem; */
 }
 
 .lg {
