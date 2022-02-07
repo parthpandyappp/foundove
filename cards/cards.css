@@ -1,0 +1,102 @@
+.disp-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-col {
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+  border: 1px solid black;
+  border-radius: 0.3rem;
+  margin: 1rem;
+}
+
+.card-shadow {
+  box-shadow: 2px 2px 2px 1px;
+}
+
+.card-img {
+  /* display: flex;
+  justify-content: center; */
+  object-fit: cover;
+  /* align-items: center; */
+  width: 30rem;
+  height: 15rem;
+  max-width: 100%;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-options {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card-option-list {
+  font-size: large;
+  font-weight: bolder;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dismiss-btn {
+  height: 2rem;
+  width: 2rem;
+}
+
+.img-overlay {
+  position: relative;
+}
+
+.chip {
+  display: flex;
+  justify-content: center;
+  width: 8rem;
+  align-items: center;
+  padding: 0.2rem 1rem;
+  background-color: var(--dawn-yellow);
+  border-radius: 1.5rem;
+}
+
+.txt-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  line-height: 10px;
+  font-style: italic;
+}
+
+li {
+  margin-top: 5rem;
+}
+
+@media screen and (max-width: 750px) {
+  .card-body {
+    padding: 0.5rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 200px;
+    max-width: 200px;
+  }
+
+  .card-option-list {
+    font-size: small;
+    font-weight: 900;
+  }
+
+  .menu-img {
+    width: 1rem;
+    height: 1rem;
+  }
+}
