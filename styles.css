@@ -4,6 +4,9 @@
 /* importing typography.css into main stylesheet file */
 @import "./badges/badges.css";
 
+/* importing typography.css into main stylesheet file */
+@import "./typography/typography.css";
+
 /* importing cards.css into main stylesheet file */
 @import "./cards/cards.css";
 
