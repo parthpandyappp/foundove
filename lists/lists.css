@@ -1,0 +1,10 @@
+.disp-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.list-item {
+  margin: 0;
+}

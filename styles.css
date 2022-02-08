@@ -25,6 +25,9 @@
 /* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
 
+/* importing button.css into main stylesheet file */
+@import "./lists/lists.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;

@@ -19,6 +19,7 @@
 
 .sub-title {
   font-size: 1.2rem;
+  margin-top: 5rem;
 }
 
 /* 100px = 6.25rem */
@@ -51,8 +52,4 @@
 
 .rounded {
   border-radius: 1.5rem;
-}
-
-li {
-  margin-top: 5rem;
 }
