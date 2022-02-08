@@ -1,7 +1,6 @@
 /* Importing font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
-
 /* importing toasts.css into main stylesheet file */
 @import "./toasts/toasts.css";
 
@@ -28,7 +27,6 @@
 
 /* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
-https://github.com/parthpandyappp/foundove/pull/9/conflict?name=styles.css&ancestor_oid=15d69b09acc72407be88d2e3d72c8af23704f161&base_oid=cd9419bc92ea765e2e99d6232e4f2ff05494b9ec&head_oid=c42004be6cc0edfe19b9b4a527057ccf2494a2fe
 
 /* Applying fonts to the root and defining colors */
 * {
