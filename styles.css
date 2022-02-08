@@ -1,6 +1,9 @@
 /* Importing font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
+/* importing toasts.css into main stylesheet file */
+@import "./toasts/toasts.css";
+
 /* importing typography.css into main stylesheet file */
 @import "./badges/badges.css";
 
@@ -25,7 +28,7 @@
 /* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
 
-/* Applying fonts to the root */
+/* Applying fonts to the root and defining colors */
 * {
   font-family: "Poppins", sans-serif;
   --extreme-black: #1e293b;
