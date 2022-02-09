@@ -28,6 +28,9 @@
 /* importing toasts.css into main stylesheet file */
 @import "./toasts/toasts.css";
 
+/* importing docs.css into main stylesheet file */
+@import "./docs/docs.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
