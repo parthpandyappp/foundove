@@ -1,9 +1,6 @@
 /* Importing font from Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap");
 
-/* importing toasts.css into main stylesheet file */
-@import "./toasts/toasts.css";
-
 /* importing typography.css into main stylesheet file */
 @import "./badges/badges.css";
 
@@ -28,11 +25,10 @@
 /* importing button.css into main stylesheet file */
 @import "./buttons/buttons.css";
 
-/* importing button.css into main stylesheet file */
-@import "./lists/lists.css";
+/* importing toasts.css into main stylesheet file */
+@import "./toasts/toasts.css";
 
-
-/* Applying fonts to the root and defining colors */
+/* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
   --extreme-black: #1e293b;
@@ -60,12 +56,42 @@
   text-decoration: none;
 }
 
-/* content-description styles */
-.content-desc {
-  margin-top: 3rem;
-  padding: 1rem;
+nav .nav-opts {
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 
+.intro {
+  display: flex;
+  /* margin-top: 3rem; */
+  padding: 1rem;
+  height: 100vh;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.intro-flyer {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+}
+
+.flyer-img {
+  width: 600px;
+  max-width: 100%;
+}
+
+.lib-name {
+  color: var(--naval-sky);
+}
 /* body styles */
 body {
   height: 100vh;
@@ -82,6 +108,7 @@ body {
 /* navigation */
 nav {
   display: flex;
+  justify-content: space-between;
   padding: 0.5rem 1rem;
   background-color: var(--extreme-black);
   color: var(--slate-white);
@@ -106,13 +133,15 @@ nav {
 /* inline-lists */
 ul .inline-list {
   display: inline;
-  padding: 0.5rem;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
   text-decoration: none;
 }
 
 /* anchor styles */
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 /* footer */
@@ -125,4 +154,33 @@ footer {
   min-height: 50px;
   margin-top: auto;
   background-color: var(--extreme-black);
+}
+
+@media screen and (max-width: 750px) {
+  .flyer-img {
+    width: 300px;
+  }
+  .intro {
+    flex-direction: column-reverse;
+
+    justify-content: center;
+  }
+  .intro-content {
+    width: 100%;
+  }
+
+  nav .nav-opts {
+    display: none;
+  }
+
+  .explore-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+  }
+  .explore-nav .chip {
+    padding: 0;
+    text-align: center;
+  }
 }
