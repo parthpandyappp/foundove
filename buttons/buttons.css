@@ -1,7 +1,8 @@
 .disp-btn {
   display: flex;
   justify-content: center;
-  margin: 3rem;
+  flex-wrap: wrap;
+  margin: 1rem;
   gap: 1rem;
 }
 
@@ -50,4 +51,7 @@
   color: var(--naval-yellow);
   border: 1px solid var(--naval-yellow);
   background: none;
+}
+
+@media screen and (max-width: 750px) {
 }
