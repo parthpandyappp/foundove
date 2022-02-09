@@ -1,3 +1,9 @@
 .doc-list li {
-  font-size: large;
+  font-size: larger;
+  margin-top: 5rem;
+}
+
+.link-redirect {
+  vertical-align: middle;
+  margin-left: 0.5rem;
 }
