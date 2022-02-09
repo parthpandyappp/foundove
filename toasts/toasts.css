@@ -1,0 +1,38 @@
+.toast-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.toast-main {
+  display: flex;
+  justify-content: space-between;
+  width: 25rem;
+  padding: 0.2rem;
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  background-color: var(--sky-blue);
+  box-shadow: 0 0 0.3rem;
+}
+
+.toast-head {
+  font-weight: bold;
+  margin-left: 0.5rem;
+}
+
+.toast-utils {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.cross-btn {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+li {
+  margin-top: 5rem;
+}
