@@ -28,6 +28,9 @@
 /* importing toasts.css into main stylesheet file */
 @import "./toasts/toasts.css";
 
+/* importing navigation.css into main stylesheet file */
+@import "./slider/slider.css";
+
 /* importing docs.css into main stylesheet file */
 @import "./docs/docs.css";
 
@@ -137,7 +140,7 @@ nav {
 ul .inline-list {
   display: inline;
   padding: 0.5rem 1rem;
-  margin: 0.5rem;
+  margin: 1rem;
   text-decoration: none;
 }
 
@@ -178,12 +181,35 @@ footer {
 
   .explore-nav {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
     justify-content: center;
     padding: 0;
   }
+
+  .explore-nav li {
+    margin: 1rem !important;
+  }
+
   .explore-nav .chip {
     padding: 0;
     text-align: center;
   }
+}
+
+.explore-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+.explore-nav li {
+  margin: 0.5rem !important;
+}
+
+.explore-nav .chip {
+  padding: 0;
+  text-align: center;
 }
