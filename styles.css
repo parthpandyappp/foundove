@@ -40,6 +40,9 @@
 /* importing inputs.css into main stylesheet file */
 @import "./inputs/inputs.css";
 
+/* importing modal.css into main stylesheet file */
+@import "./modal/modal.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
