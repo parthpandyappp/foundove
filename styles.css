@@ -28,14 +28,17 @@
 /* importing toasts.css into main stylesheet file */
 @import "./toasts/toasts.css";
 
-/* importing navigation.css into main stylesheet file */
+/* importing slider.css into main stylesheet file */
 @import "./slider/slider.css";
 
 /* importing docs.css into main stylesheet file */
 @import "./docs/docs.css";
 
-/* importing docs.css into main stylesheet file */
+/* importing ratings.css into main stylesheet file */
 @import "./ratings/ratings.css";
+
+/* importing inputs.css into main stylesheet file */
+@import "./inputs/inputs.css";
 
 /* Applying fonts to the root */
 * {
@@ -49,6 +52,8 @@
   --dark-cyan: #0891b2;
   --naval-sky: #3b82f6;
   --naval-gray: #64748b;
+  --slate-gray: #f1f5f9;
+  --dense-gray: #cbd5e1;
   --naval-green: #10b981;
   --naval-yellow: #f59e0b;
   --rose-red: #ef4444;

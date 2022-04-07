@@ -11,7 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <title>Ratings</title>
+    <title>Inputs</title>
   </head>
   <body>
     <div class="container">
@@ -28,17 +28,45 @@
       </nav>
 
       <div class="pg-section">
-        <h2 class="blueho">Ratings</h2>
+        <h2 class="blueho">Inputs</h2>
         <hr />
-        <p>Basic Ecommerce ratings:</p>
+        <ul class="input-items">
+          <li>Default</li>
+          <div class="input-item">
+            <input
+              class="input-box"
+              type="text"
+              placeholder="Enter your credentials"
+            />
+          </div>
 
-        <div class="rating-container">
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star checked"></span>
-          <span class="fa fa-star"></span>
-          <span class="fa fa-star"></span>
-        </div>
+          <li>Hover Input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-hover"
+              type="text"
+              placeholder="Enter your credentials"
+            />
+          </div>
+
+          <li>Disabled input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-disable"
+              type="text"
+              placeholder="Enter your credentials"
+              disabled
+            />
+          </div>
+          <li>Erraneous input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-error"
+              type="text"
+              placeholder="Enter your credentials"
+            />
+          </div>
+        </ul>
       </div>
     </div>
     <footer>&copy; FoundOve UI 2021</footer>
