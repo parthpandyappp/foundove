@@ -34,6 +34,9 @@
 /* importing docs.css into main stylesheet file */
 @import "./docs/docs.css";
 
+/* importing docs.css into main stylesheet file */
+@import "./ratings/ratings.css";
+
 /* Applying fonts to the root */
 * {
   font-family: "Poppins", sans-serif;
