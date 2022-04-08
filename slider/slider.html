@@ -2,10 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Parth Pandya" />
+    <meta name="description" content="Button Docs" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
-    <title>Toasts</title>
+    <title>Slider</title>
   </head>
   <body>
     <div class="container">
@@ -20,36 +22,14 @@
           /></a>
         </div>
       </nav>
+
       <div class="pg-section">
-        <h2>Toasts</h2>
+        <h2 class="blueho">Slider</h2>
         <hr />
-        <p>
-          Push notifications to your visitors with a toast, a lightweight and
-          easily customizable alert message.
-        </p>
-
-        <ul>
-          <li class="toast-item">Basic Toast</li>
-          <div class="toast-container">
-            <div class="toast-main">
-              <p class="toast-head">Toast title</p>
-            </div>
-          </div>
-
-          <li class="toast-item">Basic Toast with utilities</li>
-          <div class="toast-container">
-            <div class="toast-main">
-              <p class="toast-head">Toast title</p>
-              <div class="toast-utils">
-                <p>15 mins ago</p>
-                <img
-                  class="cross-btn"
-                  src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-cancel-interface-dreamstale-lineal-dreamstale.png"
-                />
-              </div>
-            </div>
-          </div>
-        </ul>
+        <div class="slidecontainer">
+          <p>Range slider:</p>
+          <input type="range" min="1" max="100" value="50" class="slider" />
+        </div>
       </div>
 
       <div class="pg-section">
@@ -97,6 +77,6 @@
         </ul>
       </div>
     </div>
+    <footer>&copy; FoundOve UI 2021</footer>
   </body>
-  <footer>&copy; 2021, FoundOve UI</footer>
 </html>

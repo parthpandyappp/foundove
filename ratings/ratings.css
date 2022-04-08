@@ -1,0 +1,11 @@
+.checked {
+  color: orange;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  gap: 1rem;
+}

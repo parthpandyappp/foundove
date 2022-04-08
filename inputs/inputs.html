@@ -2,10 +2,16 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="author" content="Parth Pandya" />
+    <meta name="description" content="Button Docs" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles.css" />
-    <title>Toasts</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Inputs</title>
   </head>
   <body>
     <div class="container">
@@ -20,38 +26,48 @@
           /></a>
         </div>
       </nav>
-      <div class="pg-section">
-        <h2>Toasts</h2>
-        <hr />
-        <p>
-          Push notifications to your visitors with a toast, a lightweight and
-          easily customizable alert message.
-        </p>
 
-        <ul>
-          <li class="toast-item">Basic Toast</li>
-          <div class="toast-container">
-            <div class="toast-main">
-              <p class="toast-head">Toast title</p>
-            </div>
+      <div class="pg-section">
+        <h2 class="blueho">Inputs</h2>
+        <hr />
+        <ul class="input-items">
+          <li>Default</li>
+          <div class="input-item">
+            <input
+              class="input-box"
+              type="text"
+              placeholder="Enter your credentials"
+            />
           </div>
 
-          <li class="toast-item">Basic Toast with utilities</li>
-          <div class="toast-container">
-            <div class="toast-main">
-              <p class="toast-head">Toast title</p>
-              <div class="toast-utils">
-                <p>15 mins ago</p>
-                <img
-                  class="cross-btn"
-                  src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-cancel-interface-dreamstale-lineal-dreamstale.png"
-                />
-              </div>
-            </div>
+          <li>Hover Input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-hover"
+              type="text"
+              placeholder="Enter your credentials"
+            />
+          </div>
+
+          <li>Disabled input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-disable"
+              type="text"
+              placeholder="Enter your credentials"
+              disabled
+            />
+          </div>
+          <li>Erraneous input</li>
+          <div class="input-item">
+            <input
+              class="input-box input-error"
+              type="text"
+              placeholder="Enter your credentials"
+            />
           </div>
         </ul>
       </div>
-
       <div class="pg-section">
         <h2 id="explore">Explore components</h2>
         <ul class="explore-nav">
@@ -97,6 +113,6 @@
         </ul>
       </div>
     </div>
+    <footer>&copy; FoundOve UI 2021</footer>
   </body>
-  <footer>&copy; 2021, FoundOve UI</footer>
 </html>

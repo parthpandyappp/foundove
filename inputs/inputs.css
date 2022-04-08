@@ -1,0 +1,23 @@
+.input-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.input-box {
+  padding: 0.3rem 2rem;
+  background-color: var(--slate-gray);
+  border: 1px solid black;
+}
+
+.input-disable {
+  background-color: var(--dense-gray);
+}
+
+.input-error {
+  border: 1px solid var(--rose-red);
+}
+
+.input-hover:hover {
+  box-shadow: 2px 2px;
+}
